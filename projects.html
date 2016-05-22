@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    body{
+      background: #ECF8FF !important;
+    }
+
+    .jumbotron{
+      background: #BDC7CC !important;
+    }
+
+  </style>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Zachary Shannon</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li class = "active"><a href="projects.html">Projects</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Projects</h1>
+        <p>Take a look at some projects I have been working on recently. Or, take a look at my <a href="https://github.com/zachshannon">GitHub page.</a></p>
+      </div>
+    </div>
+
+    <div class="container marketing">
+
+       <div class="blog-post">
+              <h2 class="blog-post-title">Cellular Automaton</h2>
+              <p class="blog-post-meta">May 20, 2016 by <a href="#">Zachary Shannon</a></p>
+
+              <img class="img-responsive" src="animation.gif" alt="">
+
+              <br>
+
+              <p>Currently WIP.</p>
+
+              <p>Appearing some time in the 1970s, John Horton Conway's 'Game of Life' is a so called 'cellular automaton'.
+                Take a base state; by applying some simple rules, that base state 'evolves'. Conway's Game of Life has an even more interesting property though: using Conway's Game of Life
+                we can <a href = "http://rendell-attic.org/gol/tm.htm">build a Universal Turing Machine</a>. I am very interested in using Conway's Game of Life
+                to generate 'artistic' images. To this end, I have started work on some <a href = "https://github.com/zachshannon/CellularAutomatonVisualiser">Python code to do just that</a>.</p>
+
+              <p>This code is not quite ready to produce anything too pretty, and it is a bit slow right now. It does work, though!</p>
+
+
+            </div><!-- /.blog-post -->
+
+        <hr class="featurette-divider">
+
+        <div class="blog-post">
+               <h2 class="blog-post-title">Socket programming with SSL</h2>
+               <p class="blog-post-meta">May 20, 2016 by <a href="#">Zachary Shannon</a></p>
+
+               <p>As part of a piece of coursework recently, I had to put together a server for a 'GPS Friend Finder' app that lets you find your friends using GPS.
+                 The server is written in Java and uses SSL Sockets. This is not a very effective system really (for obvious reasons) but it did provide an opportunity to learn about SSL.</p>
+
+                <p><a href ="https://github.com/zachshannon/TheiaServer">Take a look at it on GitHub</a>.
+             </div><!-- /.blog-post -->
+
+        <hr class="featurette-divider">
+
+
+     <!-- FOOTER -->
+     <footer>
+       <p class="pull-right"><a href="#">Back to top</a></p>
+       <p>This website was designed and built by myself. Thanks to <a href = "http://getbootstrap.com/">Bootstrap</a> for bringing the whole thing together!</p>
+     </footer>
+
+   </div><!-- /.container -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
